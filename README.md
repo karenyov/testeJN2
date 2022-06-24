@@ -18,7 +18,7 @@ Alterar o arquivo .env.example (remover o .example) e deixar as configurações 
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=eletro_db
+DB_DATABASE=jn2_db
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
@@ -85,6 +85,9 @@ php artisan db:seed
 ├── server.php
 └── webpack.mix.js
 ```
+
+## Estrutura Database
+![alt text](https://github.com/karenyov/testeJN2/blob/main/database.jpg)
 
 ## ENDPOINTS
 

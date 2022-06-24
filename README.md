@@ -47,7 +47,6 @@ php artisan db:seed
 │   |   ├── Requests
 │   |   ├── Resources
 │   |   └── Kernel.php
-│   ├── Models
 │   ├── Providers
 │   ├── Repositories
 │   └── User.php

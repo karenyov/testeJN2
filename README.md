@@ -205,6 +205,30 @@ php artisan db:seed
             "message": "Cliente deletado com sucesso."
         }
 
+#### [GET] - `api/final-placa{id}`
++ Request (application/json)
+
+    + Headers
+
+            `api/final-placa{id}`
+
++ Response 200 (application/json)
+
+        {
+            "success": true,
+            "data": [
+                {
+                    "id": 1,
+                    "nome": "João",
+                    "telefone": "122345",
+                    "cpf": "12334568",
+                    "placa": "EXX-0981"
+                },
+            ],
+            "message": "Clientes carregados com sucesso."
+        }
+
+
 ## Comandos úteis
 ```sh
 # lista os containers dessa aplicação
